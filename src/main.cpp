@@ -10,9 +10,6 @@ void setup(void)
 	
 	// Start the I2S interrupts
 	BeginI2s();
-
-	// need to wait a bit before configuring codec, otherwise something weird happens and there's no output...
-	delay(1000); 
 }
 
 
